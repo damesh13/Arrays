@@ -1,0 +1,31 @@
+//we are going to see only one dimensional arrays
+
+//As we all know to write any code the program should have main function 
+//I created call called Arrays
+class Arrays {
+    public static void main(String[] args) {
+        int len=0;
+        // Here i directly created an one dimensional array andi also given the values 
+        int a[]={1,2,3,4,5} ;
+        //first index always starts with 0 and last index always ends with size -1
+        
+        // To print the elements in Array we use loop function 
+        for(int i=0;i<5;i++){
+        System.out.println(a[i]);
+        }
+        
+        //The length will always last index+1
+        // To find the length of the array we also use loop function
+        for(int i=0;i<5;i++){
+        len+=1;
+        }
+        System.out.println("length of the Array is "+ len);
+        
+        // To change any element we use there index to change it 
+        a[0] = 10;
+        System.out.println("Modified element : " + a[0]);
+        
+        
+        
+    }
+}
